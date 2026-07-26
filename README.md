@@ -91,13 +91,26 @@ Random Forest, XGBoost) with:
 Cross-validation was stable across folds (XGBoost R² = 0.757 ± 0.012), and the model relies on football-sensible drivers.
 
 
-## Undervalued Talent Identification
-Uses the XGBoost model to predict each player's fair market value, compares it to
-their actual market value, and ranks the players whose predicted value most exceeds
-their current price (the "bargains").
 
-Predictions are made with 5-fold cross_val_predict, so every player gets an
-out-of-fold (leakage-free) prediction.
+
+## Undervalued Talent Identification
+Uses the XGBoost model to predict each player's fair market value, compares it to their actual
+market value, and ranks the players whose predicted value most exceeds their current price
+(the "bargains").
+
+- **Undervalued** = predicted value **>** actual value (a positive gap / ratio > 1)
+- **Overvalued** = predicted value **<** actual value
+
+**Output:** `top_undervalued_players.csv` — all qualifying players (≥ 5 full-90s played) ranked by
+undervaluation gap.
+
+To test whether the flagged players are genuinely undervalued, each pick was checked against real
+completed transfers (`transfers.csv`).
+
+| Group | % sold ABOVE market value |
+|-------|---------------------------|
+| All players baseline | 42.6% |
+| **Model's top-100 undervalued picks** | **57.5%** |
 
 
 
@@ -112,7 +125,7 @@ out-of-fold (leakage-free) prediction.
 - [x] Exploratory Data Analysis
 - [ ] PostgreSQL Database
 - [x] Machine Learning (predict value)
-- [ ] Undervalued talent identification
+- [x] Undervalued talent identification (validated against real transfer)
 - [ ] Player Similarity Analysis
 - [ ] Model Explainability (SHAP)
 - [ ] Tableau Dashboards
