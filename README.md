@@ -101,6 +101,17 @@ Random Forest, XGBoost) with:
 Cross-validation was stable across folds (XGBoost R² = 0.757 ± 0.012), and the model relies on football-sensible drivers.
 
 
+## Undervalued Talent Identification
+Uses the XGBoost model to predict each player's fair market value, compares it to
+their actual market value, and ranks the players whose predicted value most exceeds
+their current price (the "bargains").
+
+Predictions are made with 5-fold cross_val_predict, so every player gets an
+out-of-fold (leakage-free) prediction.
+
+
+
+
 
 ## Status
 
