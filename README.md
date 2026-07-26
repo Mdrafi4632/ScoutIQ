@@ -68,16 +68,6 @@ Data Sources → Collection & Integration → Cleaning & Feature Engineering →
 
 
 ## Machine Learning
-Predict player market value.
-Trains and compares three regression models (Linear Regression, Random Forest, XGBoost) with:
-  - 5-fold cross-validation
-  - hyperparameter tuning (RandomizedSearchCV) for Random Forest and XGBoost
-  - an actual vs predicted plot
-  - the trained best model saved to disk for reuse
-
-
-
-## Machine Learning
 
 Predict player market value. Trains and compares three regression models (Linear Regression,
 Random Forest, XGBoost) with:
