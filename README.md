@@ -26,8 +26,8 @@ The dataset combines two public sources for the 2025-26 season (top-5 European l
 
 | Source | Role | Provides |
 |--------|------|----------|
-| **FBref** (via Kaggle) | Features | Player performance stats: goals, assists, shots, minutes, tackles, interceptions, goalkeeping, etc. |
-| **Transfermarkt** (via Kaggle) | Target + context | Market values, transfers, position, club, contract, height |
+| **FBref** | Features | Player performance stats: goals, assists, shots, minutes, tackles, interceptions, goalkeeping, etc. |
+| **Transfermarkt** | Target + context | Market values, transfers, position, club, contract, height |
 
 **Final dataset:** `soccer_recruitment_dataset.csv` — 2,839 players (2,514 with a market value), 71 columns.
 
