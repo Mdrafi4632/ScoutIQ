@@ -14,10 +14,11 @@ This project builds a data-driven soccer recruitment system that uses machine le
 identify **undervalued players** whose on-field performance suggests they are worth
 more than their current market value.
 
-The system performs three main tasks:
+The system performs four main tasks:
 1. **Player Market Value Prediction** - predict a player's market value from performance statistics, age, position, league, and playing time using regression
 2. **Undervalued Talent Identification** - compare each player's predicted market value with their actual market value to identify and rank potentially undervalued players
-4. **Player Similarity Analysis** - identify statistically similar players using Cosine Similarity, with K-Means clustering and PCA visualization to support player comparison and identify potential lower-cost alternatives
+3. **Player Similarity Analysis** - identify statistically similar players using Cosine Similarity, with K-Means clustering and PCA visualization to support player comparison and identify potential lower-cost alternatives
+4. **Model Explainability (SHAP)** - explains why the model values each player using SHAP, revealing the key factors behind every prediction
 
 
 ## Data
