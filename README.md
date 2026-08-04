@@ -40,13 +40,13 @@ achieving an 88.6% match rate.
 ├── README.md                          
 │
 ├── Datasets/                          
-│   ├── FBref dataset 24-25/          - raw FBref performance stats
-│   ├── Transfermarkt dataset 24-25/  - raw Transfermarkt market values
+│   ├── FBref dataset 24-25           - raw FBref performance stats
+│   ├── Transfermarkt dataset 24-25   - raw Transfermarkt market values
 │   ├── player_valuation_dataset.csv  - final merged dataset
 │   └── top_undervalued_players.csv   - ranked undervalued players (output)
 │
 ├── Docs/                             
-│   └── Capstone Project Proposal Paper.pdf
+│   └── Capstone Project Proposal Paper
 │
 ├── figures/                          - all charts and visualizations
 │   ├── EDA Figures/                  - exploratory analysis charts
