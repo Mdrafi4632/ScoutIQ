@@ -53,15 +53,35 @@ achieving an 88.6% match rate.
 
 - **Language:** Python (pandas, scikit-learn, XGBoost, SHAP)
 - **Models:** Linear Regression (baseline), Random Forest, XGBoost
+- **Similarity:** Cosine similarity on per-90 stats
 - **Clustering:** K-Means with PCA
-- **Explainability:** SHAP feature importance
-- **Visualization:** Tableau dashboards
-- **Storage:** PostgreSQL (planned)
+- **Explainability:** SHAP (global and per player)
+- **Visualization:** matplotlib (EDA, model, similarity, and charts)
+- **Data storage:** CSV files
+
+
 
 ## Project Pipeline
 
-Data Sources → Collection & Integration → Cleaning & Feature Engineering → PostgreSQL Database → Exploratory Data Analysis → Machine Learning → Player Similarity Analysis → Model Explainability → Undervalued Talent Identification → Tableau Dashboards → Recommendation System
-
+```
+Data Sources (FBref + Transfermarkt)
+        ▼
+Collection and Integration        
+        ▼
+Cleaning and Feature Engineering    
+        ▼
+Exploratory Data Analysis         
+        ▼
+Machine Learning                  
+        ▼
+Undervalued Talent Identification 
+        ▼
+Player Similarity Analysis       
+        ▼
+Model Explainability (SHAP)     
+        ▼
+Recommendation Insights       
+```
 
 ## Machine Learning
 
