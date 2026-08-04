@@ -53,7 +53,7 @@ achieving an 88.6% match rate.
 ```
 
 
-## Methods & Tools
+## Methods and Tools
 
 - **Language:** Python (pandas, scikit-learn, XGBoost, SHAP)
 - **Models:** Linear Regression (baseline), Random Forest, XGBoost
