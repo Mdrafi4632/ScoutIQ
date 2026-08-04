@@ -15,13 +15,9 @@ identify **undervalued players** whose on-field performance suggests they are wo
 more than their current market value.
 
 The system performs three main tasks:
-
-1. **Player Market Value Prediction** — predict a player's market value from performance stats,
-   age, position, league, and playing time (supervised regression).
-2. **Undervalued Talent Identification** — compare each player's predicted value to their actual
-   market value and rank the biggest positive gaps as potential bargains.
-3. **Player Similarity Analysis** — group statistically similar players (K-Means + PCA) to find
-   cheaper alternatives to a target or departing player.
+1. **Player Market Value Prediction** - predict a player's market value from performance statistics, age, position, league, and playing time using regression
+2. **Undervalued Talent Identification** - compare each player's predicted market value with their actual market value to identify and rank potentially undervalued players
+4. **Player Similarity Analysis** - identify statistically similar players using Cosine Similarity, with K-Means clustering and PCA visualization to support player comparison and identify potential lower-cost alternatives
 
 
 ## Data
