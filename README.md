@@ -113,6 +113,18 @@ completed transfers (`transfers.csv`).
 | **Model's top-100 undervalued picks** | **57.5%** |
 
 
+## Player Similarity Analysis
+A "like-for-like replacement finder" to find their most similar players, plus cheaper alternatives. Players are compared on **per-90 style stats** via **cosine similarity** within the same position, 
+scaled with **StandardScaler**, with **PCA** and **K-Means** for player types. Output gives a match **% + rating** and flags cheaper options. 
+Example: Salah's top matches were Rashford, Bowen, and Chukwueze (cheaper at €18M)
+
+
+## Model Explainability
+Uses **SHAP** to explain *why* the XGBoost model assigns each player a value.
+A **global view** shows the top value players, **Age, Team Goals on Pitch, Premier League, and Contract Years-Left**. 
+A **per-player view** gives a value breakdown and an **UNDERVALUED / OVERVALUED verdict**.
+SHAP values are taken directly from XGBoost to ensure exact results.
+Example: Amad Diallo is flagged **UNDERVALUED by ~€13M**, while Salah is **OVERVALUED** (age + short contract drag him down).
 
 
 
@@ -120,13 +132,11 @@ completed transfers (`transfers.csv`).
 
 - [x] Proposal paper
 - [x] Data collection (FBref + Transfermarkt)
-- [x] Data integration / join
-- [x] Data cleaning & formatting
+- [x] Data integration and merge
+- [x] Data cleaning and formatting
 - [x] Exploratory Data Analysis
-- [ ] PostgreSQL Database
 - [x] Machine Learning (predict value)
 - [x] Undervalued talent identification (validated against real transfer)
-- [ ] Player Similarity Analysis
-- [ ] Model Explainability (SHAP)
-- [ ] Tableau Dashboards
+- [x] Player Similarity Analysis
+- [x] Model Explainability (SHAP)
 - [ ] Final paper
