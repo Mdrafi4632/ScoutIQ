@@ -29,7 +29,7 @@ The dataset combines two public sources for the 2025-26 season (top-5 European l
 | **FBref** | Features | Player performance stats: goals, assists, shots, minutes, tackles, interceptions, goalkeeping, etc. |
 | **Transfermarkt** | Target + context | Market values, transfers, position, club, contract, height |
 
-**Final dataset:** `soccer_recruitment_dataset.csv` — 2,839 players (2,514 with a market value), 71 columns.
+**Final dataset:** `soccer_recruitment_dataset.csv` - 2,839 players (2,514 with a market value), 71 columns.
 
 The two sources were joined on a normalized player name + birth year (they share no common ID),
 achieving an 88.6% match rate.
@@ -37,8 +37,7 @@ achieving an 88.6% match rate.
 
 ## Repository Structure
 ```
-soccer-recruitment-system/
-├── README.md                          # project overview
+├── README.md                          
 │
 ├── Datasets/                          
 │   ├── FBref dataset 24-25/          # raw FBref performance stats
