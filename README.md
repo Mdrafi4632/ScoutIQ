@@ -40,28 +40,28 @@ achieving an 88.6% match rate.
 ├── README.md                          
 │
 ├── Datasets/                          
-│   ├── FBref dataset 24-25/          # raw FBref performance stats
-│   ├── Transfermarkt dataset 24-25/  # raw Transfermarkt market values
-│   ├── player_valuation_dataset.csv  # final merged dataset
-│   └── top_undervalued_players.csv   # ranked undervalued players (output)
+│   ├── FBref dataset 24-25/          - raw FBref performance stats
+│   ├── Transfermarkt dataset 24-25/  - raw Transfermarkt market values
+│   ├── player_valuation_dataset.csv  - final merged dataset
+│   └── top_undervalued_players.csv   - ranked undervalued players (output)
 │
 ├── Docs/                             
 │   └── Capstone Project Proposal Paper.pdf
 │
-├── figures/                          # all charts and visualizations
-│   ├── EDA Figures/                  # exploratory analysis charts
-│   └── ML Model Figures/             # model and results charts
+├── figures/                          - all charts and visualizations
+│   ├── EDA Figures/                  - exploratory analysis charts
+│   └── ML Model Figures/             - model and results charts
 │
-└── scripts/                          # all project code
-    ├── dataset prep/                 # data preparation pipeline
-    │   ├── join_data.py              # merge datasets
-    │   ├── clean_data.py             # remove redundant columns
-    │   └── rename_column.py          # readable column names
-    ├── eda.py                        # exploratory data analysis
-    ├── ml_models.py                  # value prediction models
-    ├── undervalued_players.py        # transfer validation
-    ├── player_similarity.py          # replacement finder
-    └── shap_explain.py               # SHAP model explainability
+└── scripts/                          - all project code
+    ├── dataset prep/                 - data preparation pipeline
+    │   ├── join_data.py              - merge datasets
+    │   ├── clean_data.py             - remove redundant columns
+    │   └── rename_column.py          - readable column names
+    ├── eda.py                        - exploratory data analysis
+    ├── ml_models.py                  - value prediction models
+    ├── undervalued_players.py        - transfer validation
+    ├── player_similarity.py          - replacement finder
+    └── shap_explain.py               - SHAP model explainability
 ```
 
 
