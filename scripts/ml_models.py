@@ -13,9 +13,9 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from xgboost import XGBRegressor
 
-INPUT_FILE = r"C:\Users\Rafi\Documents\Claude\Projects\Capstone Project\soccer_recruitment_dataset.csv"
-OUTPUT_DIR = r"C:\Users\Rafi\Documents\Claude\Projects\Capstone Project\eda_figures"
-MODEL_DIR  = r"C:\Users\Rafi\Documents\Claude\Projects\Capstone Project"
+INPUT_FILE = r"C:\Users\Rafi\Documents\Projects\Capstone Project\soccer_recruitment_dataset.csv"
+OUTPUT_DIR = r"C:\Users\Rafi\Documents\Projects\Capstone Project\eda_figures"
+MODEL_DIR  = r"C:\Users\Rafi\Documents\Projects\Capstone Project"
 
 
 # LOAD DATASET
