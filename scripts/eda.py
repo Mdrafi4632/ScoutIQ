@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
-INPUT_FILE = r"C:\Users\Rafi\Documents\Claude\Projects\Capstone Project\soccer_recruitment_dataset.csv"
+INPUT_FILE = r"C:\Users\Rafi\Documents\Projects\Capstone Project\soccer_recruitment_dataset.csv"
 OUTPUT_DIR = r"C:\Users\Rafi\Downloads\eda_figures"
 
 # Read the dataset
