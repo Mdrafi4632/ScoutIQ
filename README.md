@@ -154,22 +154,22 @@ Example: Salah's top matches were Rashford, Bowen, and Chukwueze (cheaper at €
 
 ## Model Explainability
 Uses **SHAP** to explain *why* the XGBoost model assigns each player a value.
-A **global view** shows the top value players, **Age, Team Goals on Pitch, Premier League, and Contract Years-Left**. 
-A **per-player view** gives a value breakdown and an **UNDERVALUED / OVERVALUED verdict**.
+A **global view** shows the top-value players by **Age, Team Goals on Pitch, Premier League, and Contract Years-Left**. 
+A **per-player view** gives a value breakdown and an **Undervalued / Overvalued verdict**.
 SHAP values are taken directly from XGBoost to ensure exact results.
-Example: Amad Diallo is flagged **UNDERVALUED by ~€13M**, while Salah is **OVERVALUED** (age + short contract drag him down).
+Example: Amad Diallo is flagged **Undervalued by ~€13M**, while Salah is **Overvalued** (age + short contract drag him down).
 
 
 
 ## Status
 
 - [x] Proposal paper
-- [x] Data collection (FBref + Transfermarkt)
+- [x] Data collection
 - [x] Data integration and merge
 - [x] Data cleaning and formatting
 - [x] Exploratory Data Analysis
-- [x] Machine Learning (predict value)
+- [x] Machine Learning to predict value
 - [x] Undervalued talent identification (validated against real transfer)
 - [x] Player Similarity Analysis
-- [x] Model Explainability (SHAP)
-- [ ] Final paper
+- [x] Model Explainability
+- [x] Final paper
