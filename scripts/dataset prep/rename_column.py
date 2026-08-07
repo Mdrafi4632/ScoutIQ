@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Local file paths
-INPUT_FILE = r"C:\Users\Rafi\Downloads\CSIC Capstone Project\Not Finalized Dataset\fbref_transfermarkt_clean.csv"
+INPUT_FILE = r"C:\Users\Rafi\Downloads\CSIC Capstone Project\fbref_transfermarkt_clean.csv"
 OUTPUT_FILE = r"C:\Users\Rafi\Downloads\CSIC Capstone Project\player_valuation_dataset.csv"
 
 # Load cleaned dataset
