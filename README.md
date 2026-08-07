@@ -1,5 +1,5 @@
-# Soccer Recruitment System
-### Identifying Undervalued Talent Through Machine Learning
+# ScoutIQ
+### Identifying Undervalued Soccer Talent Through Machine Learning
 
 **Author:** Md Rafiul Islam Rafi
 
