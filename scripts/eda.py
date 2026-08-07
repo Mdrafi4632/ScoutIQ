@@ -1,6 +1,5 @@
 # Exploratory Data Analysis (EDA) for the Soccer Recruitment
 
-import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
