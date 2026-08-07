@@ -140,7 +140,7 @@ undervaluation gap.
 To test whether the flagged players are genuinely undervalued, each pick was checked against real
 completed transfers (`transfers.csv`).
 
-| Group | % sold ABOVE market value |
+| Group | % sold above market value |
 |-------|---------------------------|
 | All players baseline | 42.6% |
 | **Model's top-100 undervalued picks** | **57.5%** |
